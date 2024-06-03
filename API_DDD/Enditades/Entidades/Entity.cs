@@ -23,12 +23,12 @@ public abstract class Entity
     public DateTime? AlteradoEm { get; set; }
 
     [Column("AlteradoEm")]
-    public string AlteradoPor { get; set; }
+    public string? AlteradoPor { get; set; }
 
 
     [Column("ExcluidoEm")]
     public DateTime? ExcluidoEm { get; set; }
     
     [Column("ExcluidoPor")]
-    public string ExcluidoPor { get; set; }
+    public string? ExcluidoPor { get; set; }
 }

@@ -5,6 +5,7 @@ C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.G
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.AssemblyInfoInputs.cache
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.AssemblyInfo.cs
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.csproj.CoreCompileInputs.cache
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.sourcelink.json
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\refint\Aplicacao.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.pdb

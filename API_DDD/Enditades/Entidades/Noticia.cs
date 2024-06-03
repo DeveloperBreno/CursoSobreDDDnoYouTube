@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using Endidades.Enums;
 using Enditades.Notificacoes;
 
 namespace Endidades.Entidades;

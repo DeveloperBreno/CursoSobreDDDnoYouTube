@@ -126,6 +126,7 @@ C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\WebAPI.Assembl
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\WebAPI.csproj.CoreCompileInputs.cache
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
