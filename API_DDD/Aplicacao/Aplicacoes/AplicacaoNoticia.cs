@@ -28,7 +28,7 @@ public class AplicacaoNoticia : IAplicacaoNoticia
     }
     public async Task<List<Noticia>> ListarNoticiasAtivas()
     {
-        throw new NotImplementedException();
+        return await _IServicoNoticia.ListarNoticiasAtivas();
     }
 
 
