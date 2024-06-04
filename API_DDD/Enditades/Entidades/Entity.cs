@@ -22,7 +22,7 @@ public abstract class Entity
     [Column("AlteradoEm")]
     public DateTime? AlteradoEm { get; set; }
 
-    [Column("AlteradoEm")]
+    [Column("AlteradoPor")]
     public string? AlteradoPor { get; set; }
 
 

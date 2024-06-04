@@ -9,9 +9,12 @@ using Dominio.Servicos;
 using Entidades.Entidades;
 using Aplicacao.Interfaces;
 using Aplicacao.Aplicacoes;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using WebAPI.Token;
 
 var builder = WebApplication.CreateBuilder(args);
-
 
 // Recupera a string de conexão do appsettings.json
 string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -20,22 +23,56 @@ string connectionString = builder.Configuration.GetConnectionString("DefaultConn
 builder.Services.AddDbContext<Contexto>(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<Contexto>();
+// Adiciona os serviços de Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<Contexto>()
+    .AddDefaultTokenProviders();
 
-// interface e repositorio
-builder.Services.AddSingleton(typeof(IGenericos<>), typeof(RepositorioGenerico<>));
-builder.Services.AddSingleton(typeof(INoticia), typeof(RepositorioNoticia));
-builder.Services.AddSingleton(typeof(IUsuario), typeof(RepositorioUsuario));
+// Interface e repositório
+builder.Services.AddScoped(typeof(IGenericos<>), typeof(RepositorioGenerico<>));
+builder.Services.AddScoped(typeof(INoticia), typeof(RepositorioNoticia));
+builder.Services.AddScoped(typeof(IUsuario), typeof(RepositorioUsuario));
 
-// serviço dominio
-builder.Services.AddSingleton<IServicoNoticia, ServicoNoticia>();
+// Serviço domínio
+builder.Services.AddScoped<IServicoNoticia, ServicoNoticia>();
 
-// interface aplicação
-builder.Services.AddSingleton<IAplicacaoNoticia, AplicacaoNoticia>();
-builder.Services.AddSingleton<IAplicacaoUsuario, AplicacaoUsuario>();
+// Interface aplicação
+builder.Services.AddScoped<IAplicacaoNoticia, AplicacaoNoticia>();
+builder.Services.AddScoped<IAplicacaoUsuario, AplicacaoUsuario>();
 
+// JWT
+var key = "Secret_Key-12345678_Secret_Key-12345678";
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(option =>
+    {
+        option.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "Teste.Securiry.Bearer",
+            ValidAudience = "Teste.Securiry.Bearer",
+            IssuerSigningKey = JwtSecurityKey.Create(key)
+        };
+
+        option.Events = new JwtBearerEvents
+        {
+            OnAuthenticationFailed = context =>
+            {
+                Console.WriteLine("OnAuthenticationFailed: " + context.Exception.Message);
+                return Task.CompletedTask;
+            },
+            OnTokenValidated = context =>
+            {
+                Console.WriteLine("OnTokenValidated: " + context.SecurityToken);
+                return Task.CompletedTask;
+            }
+        };
+    });
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -51,6 +88,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

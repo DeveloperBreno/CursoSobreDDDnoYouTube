@@ -8,6 +8,7 @@ C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\WebAPI.pdb
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Azure.Identity.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Humanizer.dll
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
