@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endidades", "Enditades\Endidades.csproj", "{C70BA3E8-9CBE-4B83-852E-79855095A023}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Enditades\Entidades.csproj", "{C70BA3E8-9CBE-4B83-852E-79855095A023}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - APIs", "1 - APIs", "{2CBE55BE-A77E-44CE-ADAD-F76FB7819C3F}"
 EndProject

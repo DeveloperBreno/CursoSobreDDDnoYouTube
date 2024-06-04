@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using Enditades.Notificacoes;
+using Entidades.Notificacoes;
 
-namespace Endidades.Entidades;
+namespace Entidades.Entidades;
 
 [Table("TB_NOTICIA")]
 public class Noticia : Notifica

@@ -1,4 +1,4 @@
-﻿using Endidades.Entidades;
+﻿using Entidades.Entidades;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

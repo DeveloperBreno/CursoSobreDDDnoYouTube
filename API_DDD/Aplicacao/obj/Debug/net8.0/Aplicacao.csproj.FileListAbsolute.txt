@@ -2,9 +2,9 @@ C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Aplicacao.d
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Aplicacao.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Aplicacao.pdb
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Dominio.dll
-C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Endidades.dll
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Entidades.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Dominio.pdb
-C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Endidades.pdb
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\bin\Debug\net8.0\Entidades.pdb
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.csproj.AssemblyReference.cache
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Aplicacao\obj\Debug\net8.0\Aplicacao.AssemblyInfoInputs.cache

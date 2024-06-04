@@ -1,5 +1,5 @@
 ﻿using Dominio.Interfaces;
-using Endidades.Entidades;
+using Entidades.Entidades;
 using Insfraestrutura.Configuracoes;
 using Insfraestrutura.Repositorio.Genericos;
 using Microsoft.EntityFrameworkCore;
@@ -38,5 +38,12 @@ public class RepositorioUsuario : RepositorioGenerico<ApplicationUser>, IUsuario
 
         return true;
 
+    }
+
+    public async Task<bool> ExisteUsuario(string email, string senha)
+    {
+        return await _context.ApplicationUser.Where(o => o.Email.Equals(email) && o.PasswordHash.Equals(senha))
+            .AsNoTracking()
+            .AnyAsync();
     }
 }

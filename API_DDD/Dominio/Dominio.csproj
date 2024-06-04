@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Enditades\Endidades.csproj" />
+    <ProjectReference Include="..\Enditades\Entidades.csproj" />
   </ItemGroup>
 
 </Project>

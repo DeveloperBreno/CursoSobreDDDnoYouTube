@@ -9,7 +9,7 @@
       "Aplicacao/1.0.0": {
         "dependencies": {
           "Dominio": "1.0.0",
-          "Endidades": "1.0.0"
+          "Entidades": "1.0.0"
         },
         "runtime": {
           "Aplicacao.dll": {}
@@ -619,13 +619,13 @@
       },
       "Dominio/1.0.0": {
         "dependencies": {
-          "Endidades": "1.0.0"
+          "Entidades": "1.0.0"
         },
         "runtime": {
           "Dominio.dll": {}
         }
       },
-      "Endidades/1.0.0": {
+      "Entidades/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore": "8.0.6",
@@ -633,7 +633,7 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.6"
         },
         "runtime": {
-          "Endidades.dll": {}
+          "Entidades.dll": {}
         }
       }
     }
@@ -1069,7 +1069,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Endidades/1.0.0": {
+    "Entidades/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

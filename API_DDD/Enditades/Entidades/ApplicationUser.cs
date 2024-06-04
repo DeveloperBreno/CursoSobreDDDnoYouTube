@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
-using Endidades.Enums;
+using Entidades.Enums;
 using System.ComponentModel.DataAnnotations;
 
-namespace Endidades.Entidades;
+namespace Entidades.Entidades;
 public class ApplicationUser : IdentityUser
 {
     [Column("USR_NASCIMENTO")]

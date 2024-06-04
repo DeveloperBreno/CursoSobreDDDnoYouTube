@@ -1,8 +1,8 @@
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Dominio.deps.json
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Dominio.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Dominio.pdb
-C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Endidades.dll
-C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Endidades.pdb
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Entidades.dll
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\bin\Debug\net8.0\Entidades.pdb
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\obj\Debug\net8.0\Dominio.csproj.AssemblyReference.cache
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache

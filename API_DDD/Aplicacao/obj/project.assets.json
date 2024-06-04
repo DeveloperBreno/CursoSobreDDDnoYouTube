@@ -1073,7 +1073,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Endidades": "1.0.0"
+          "Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Dominio.dll": {}
@@ -1082,7 +1082,7 @@
           "bin/placeholder/Dominio.dll": {}
         }
       },
-      "Endidades/1.0.0": {
+      "Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1092,10 +1092,10 @@
           "Microsoft.Extensions.Identity.Stores": "8.0.6"
         },
         "compile": {
-          "bin/placeholder/Endidades.dll": {}
+          "bin/placeholder/Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Endidades.dll": {}
+          "bin/placeholder/Entidades.dll": {}
         }
       }
     }
@@ -2948,16 +2948,16 @@
       "path": "../Dominio/Dominio.csproj",
       "msbuildProject": "../Dominio/Dominio.csproj"
     },
-    "Endidades/1.0.0": {
+    "Entidades/1.0.0": {
       "type": "project",
-      "path": "../Enditades/Endidades.csproj",
-      "msbuildProject": "../Enditades/Endidades.csproj"
+      "path": "../Enditades/Entidades.csproj",
+      "msbuildProject": "../Enditades/Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Dominio >= 1.0.0",
-      "Endidades >= 1.0.0"
+      "Entidades >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2996,8 +2996,8 @@
             "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Dominio\\Dominio.csproj": {
               "projectPath": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Dominio\\Dominio.csproj"
             },
-            "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Endidades.csproj": {
-              "projectPath": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Endidades.csproj"
+            "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Entidades.csproj": {
+              "projectPath": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Entidades.csproj"
             }
           }
         }

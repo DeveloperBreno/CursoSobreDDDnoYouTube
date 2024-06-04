@@ -1,5 +1,5 @@
 ﻿using Dominio.Interfaces;
-using Endidades.Entidades;
+using Entidades.Entidades;
 using Insfraestrutura.Configuracoes;
 using Insfraestrutura.Repositorio.Genericos;
 using Microsoft.EntityFrameworkCore;

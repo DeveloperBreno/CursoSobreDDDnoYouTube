@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Endidades.Enums;
+using Entidades.Enums;
 
-namespace Endidades.Entidades;
+namespace Entidades.Entidades;
 
 public abstract class Entity 
 {

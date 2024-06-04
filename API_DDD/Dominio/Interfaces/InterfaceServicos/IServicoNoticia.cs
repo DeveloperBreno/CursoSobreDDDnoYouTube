@@ -1,4 +1,4 @@
-﻿using Endidades.Entidades;
+﻿using Entidades.Entidades;
 
 namespace Dominio.Interfaces.InterfaceServicos;
 

@@ -1,6 +1,6 @@
 ﻿using Dominio.Interfaces;
 using Dominio.Interfaces.InterfaceServicos;
-using Endidades.Entidades;
+using Entidades.Entidades;
 
 namespace Dominio.Servicos;
 

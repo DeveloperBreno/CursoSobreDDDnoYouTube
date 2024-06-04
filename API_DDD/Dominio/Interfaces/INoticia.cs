@@ -1,6 +1,5 @@
 ﻿using Dominio.Interfaces.Genericos;
-using Endidades.Entidades;
-using Enditades.Notificacoes;
+using Entidades.Entidades;
 using System.Linq.Expressions;
 
 namespace Dominio.Interfaces;

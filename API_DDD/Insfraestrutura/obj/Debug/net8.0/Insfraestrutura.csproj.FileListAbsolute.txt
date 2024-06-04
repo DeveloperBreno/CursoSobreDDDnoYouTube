@@ -3,9 +3,9 @@ C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Insfr
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Insfraestrutura.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Insfraestrutura.pdb
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Dominio.dll
-C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Endidades.dll
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Entidades.dll
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Dominio.pdb
-C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Endidades.pdb
+C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\bin\Debug\net8.0\Entidades.pdb
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\obj\Debug\net8.0\Insfraestrutura.csproj.AssemblyReference.cache
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\obj\Debug\net8.0\Insfraestrutura.GeneratedMSBuildEditorConfig.editorconfig
 C:\DEV\ddd\CursoSobreDDDnoYouTube\API_DDD\Insfraestrutura\obj\Debug\net8.0\Insfraestrutura.AssemblyInfoInputs.cache

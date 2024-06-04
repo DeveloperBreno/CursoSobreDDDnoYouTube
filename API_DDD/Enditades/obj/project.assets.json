@@ -4288,9 +4288,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Endidades.csproj",
-      "projectName": "Endidades",
-      "projectPath": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Endidades.csproj",
+      "projectUniqueName": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Entidades.csproj",
+      "projectName": "Entidades",
+      "projectPath": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\45781005889\\.nuget\\packages\\",
       "outputPath": "C:\\DEV\\ddd\\CursoSobreDDDnoYouTube\\API_DDD\\Enditades\\obj\\",
       "projectStyle": "PackageReference",

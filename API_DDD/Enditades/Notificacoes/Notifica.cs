@@ -1,7 +1,7 @@
-﻿using Endidades.Entidades;
+﻿using Entidades.Entidades;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Enditades.Notificacoes;
+namespace Entidades.Notificacoes;
 
 public class Notifica : Entity
 {

@@ -1,4 +1,4 @@
-﻿namespace Endidades.Enums;
+﻿namespace Entidades.Enums;
 
 public enum TipoUsuario
 {

@@ -1,5 +1,5 @@
 ﻿using Aplicacao.Interfaces.Genericos;
-using Endidades.Entidades;
+using Entidades.Entidades;
 namespace Aplicacao.Interfaces;
 
 public interface IAplicacaoNoticia : IGenericaAplicacoes<Noticia>
