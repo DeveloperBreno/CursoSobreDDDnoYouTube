@@ -12,10 +12,12 @@ namespace WebAPI.Controllers;
 public class NoticiaController : ControllerBase
 {
     private readonly IAplicacaoNoticia _aplicacaoNoticia;
+    private readonly IAplicacaoUsuario _IAplicacaoUsuario;
 
-    public NoticiaController(IAplicacaoNoticia aplicacaoNoticia)
+    public NoticiaController(IAplicacaoNoticia aplicacaoNoticia, IAplicacaoUsuario iAplicacaoUsuario)
     {
         _aplicacaoNoticia = aplicacaoNoticia;
+        _IAplicacaoUsuario = iAplicacaoUsuario;
     }
 
 
@@ -36,8 +38,9 @@ public class NoticiaController : ControllerBase
         var novaNoticia = new Noticia();
         novaNoticia.Titulo = noticiaModel.Titulo;
         novaNoticia.Informacao = noticiaModel.Informacao;
-        
-        var idUsuario = User.FindFirst("Name").Value;
+
+        var email = User.Claims.FirstOrDefault().Subject.Name;
+        var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(email);
         novaNoticia.UsuarioId = idUsuario;
 
         await _aplicacaoNoticia.AdicionarNoticia(novaNoticia);
@@ -53,7 +56,8 @@ public class NoticiaController : ControllerBase
         var novaNoticia = await _aplicacaoNoticia.BuscarPorId(noticiaModel.idNoticia);
         novaNoticia.Titulo = noticiaModel.Titulo;
         novaNoticia.Informacao = noticiaModel.Informacao;
-        var idUsuario = User.FindFirst("idUsuario").Value;
+        var email = User.Claims.FirstOrDefault().Subject.Name;
+        var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(email);
         novaNoticia.UsuarioId = idUsuario;
         await _aplicacaoNoticia.AtualizaNoticia(novaNoticia);
         return novaNoticia.Notificacoes;
