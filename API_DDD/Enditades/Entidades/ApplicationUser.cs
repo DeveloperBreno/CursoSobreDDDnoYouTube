@@ -15,4 +15,7 @@ public class ApplicationUser : IdentityUser
 
     [Column("USR_TIPO")]
     public TipoUsuario Tipo { get; set; }
+
+    // Propriedade de navegação para Noticia
+    public ICollection<Noticia> Noticias { get; set; }
 }

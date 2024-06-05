@@ -41,6 +41,7 @@ builder.Services.AddScoped<IAplicacaoNoticia, AplicacaoNoticia>();
 builder.Services.AddScoped<IAplicacaoUsuario, AplicacaoUsuario>();
 
 // JWT
+// muda no usuarioController tambem
 var key = "Secret_Key-12345678_Secret_Key-12345678";
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(option =>

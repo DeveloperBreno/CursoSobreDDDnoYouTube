@@ -82,13 +82,17 @@ namespace WebAPI.Controllers
 
             if (resultado.Succeeded)
             {
+                // muda no program.cs tambem
                 var key = "Secret_Key-12345678_Secret_Key-12345678";
+
+                var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(login.email);
+
                 var token = new TokenJWTBuilder()
                      .AddSecurityKey(JwtSecurityKey.Create(key))
                  .AddSubject("Empresa - Canal Dev Net Core")
                  .AddIssuer("Teste.Securiry.Bearer")
                  .AddAudience("Teste.Securiry.Bearer")
-                 .AddClaim("UsuarioAPINumero", "1")
+                 .AddClaim("idUsuario", idUsuario)
                  .AddExpiry(5)
                  .Builder();
 

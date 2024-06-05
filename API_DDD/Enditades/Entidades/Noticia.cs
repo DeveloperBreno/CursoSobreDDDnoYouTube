@@ -16,4 +16,13 @@ public class Noticia : Notifica
 
     [Column("Ativo")]
     public bool Ativo { get; set; }
+
+    // Propriedade da chave estrangeira para ApplicationUser
+    [Column("UsuarioId")]
+    public string UsuarioId { get; set; }
+
+    // Propriedade de navegação para ApplicationUser
+    [ForeignKey("UsuarioId")]
+    public ApplicationUser Usuario { get; set; }
+
 }
