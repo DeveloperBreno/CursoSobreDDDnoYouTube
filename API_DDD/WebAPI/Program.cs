@@ -16,6 +16,8 @@ using WebAPI.Token;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors();
+
 // Recupera a string de conexão do appsettings.json
 string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -79,6 +81,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors(b => b.WithOrigins("https://google.com", "https://microsoft.com"));
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

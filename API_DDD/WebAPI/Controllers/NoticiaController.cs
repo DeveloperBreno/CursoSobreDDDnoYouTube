@@ -20,7 +20,6 @@ public class NoticiaController : ControllerBase
         _IAplicacaoUsuario = iAplicacaoUsuario;
     }
 
-
     [Authorize]
     [Produces("application/json")]
     [HttpPost("/Noticia/List")]
@@ -29,15 +28,16 @@ public class NoticiaController : ControllerBase
         return await _aplicacaoNoticia.ListarNoticiasAtivas();
     }
 
-
     [Authorize]
     [Produces("application/json")]
     [HttpPost("/Noticia/Create")]
     public async Task<List<Notifica>> Create([FromBody] NoticiaModel noticiaModel)
     {
-        var novaNoticia = new Noticia();
-        novaNoticia.Titulo = noticiaModel.Titulo;
-        novaNoticia.Informacao = noticiaModel.Informacao;
+        var novaNoticia = new Noticia
+        {
+            Titulo = noticiaModel.Titulo,
+            Informacao = noticiaModel.Informacao
+        };
 
         var email = User.Claims.FirstOrDefault().Subject.Name;
         var idUsuario = await _IAplicacaoUsuario.RetornaIdUsuario(email);
